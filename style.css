@@ -1,0 +1,83 @@
+#frontpage {
+    p{
+    color: aliceblue;
+    font-size:xx-large
+   }
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.webinar p{
+    font-size: 18px
+    
+}
+
+#testimonies .carousel {
+  max-width: 50%; /* Adjust the percentage to change the size */
+  margin: 0 auto; /* Centers the carousel horizontally */
+}
+/* .testimonies{
+  background-color: #6c757d;
+} */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Adds a semi-transparent background */
+    border-radius: 50%; /* Makes the icon background circular */
+    width: 50px; /* Adjusts the size */
+    height: 50px;
+}
+
+.carousel-control-prev-icon::after,
+.carousel-control-next-icon::after {
+    content: ''; /* Ensures no additional content is displayed */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    opacity: 1; /* Ensures the controls are always visible */
+}
+
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.8); /* Darker background on hover for better visibility */
+}
+
+.footer {
+  background-color: #343a40;
+  color: white;
+  padding: 40px 0;
+}
+
+.footer h5 {
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.footer p, .footer a {
+  color: #dcdcdc;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.footer .list-unstyled {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer .list-unstyled li {
+  margin-bottom: 10px;
+}
+
+.footer .text-center {
+  margin-top: 20px;
+}
